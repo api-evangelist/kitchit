@@ -1,7 +1,32 @@
 aid: kitchit
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/kitchit.png
 name: Kitchit
-description: Kitchit is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: 'Kitchit was a San Francisco on-demand private-chef marketplace founded
+  in 2011 by Brendan Marshall and Ian Ferguson. The service matched consumers with
+  vetted professional chefs who shopped, cooked, served, and cleaned up a multi-course
+  meal in the customer''s own home, booked through the kitchit.com web and mobile
+  storefront. In 2015 the company pivoted from fully customized menus to a lower-priced
+  standardized product marketed as "Kitchit Tonight," priced around $39 per person
+  with a two-person minimum. Kitchit served more than 100,000 meals across roughly
+  five years of operation and reported a net promoter score of 87. It raised
+  approximately $8.1M, with investors including Andreessen Horowitz, Crosslink Capital,
+  Javelin Venture Partners, and Otter Rock Capital. The company announced its shutdown
+  in April 2016, with the founders citing a finite investment runway that ended amid
+  broad upheaval in food-tech, alongside contemporaneous failures at SpoonRocket,
+  Dinner Lab, and Kitchensurfing. Kitchit is defunct: it operates no website, developer
+  portal, or public API today, and no public API surface was ever published. This
+  profile is retained as a historical/defunct provider record for network completeness.'
 url: https://raw.githubusercontent.com/api-evangelist/kitchit/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +34,43 @@ x-backed-by:
 - a16z
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-defunct-date: '2016-04'
+x-status-reason: 'Shutdown announced April 2016. Verified 2026-07-19: kitchit.com
+  resolves to a parked GoDaddy address (50.63.202.43) but refuses connections on
+  ports 80 and 443; www, api, developer, and docs subdomains are all unreachable.
+  The github.com/Kitchit organization still exists but has zero public repositories
+  and has been dormant since 2016-10-31. No packages are published under this name
+  on npm, PyPI, or RubyGems. No API, documentation, or developer surface exists to
+  enrich.'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Food and Beverage
+- Marketplace
+- On-Demand
+- Private Chef
+- Catering
+- Consumer
+- Hospitality
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+common:
+- type: Website
+  url: https://www.kitchit.com
+- type: GitHubOrganization
+  url: https://github.com/Kitchit
+- type: DomainSecurity
+  url: security/kitchit-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
