@@ -43,7 +43,7 @@ x-status-reason: 'Shutdown announced April 2016. Verified 2026-07-19: kitchit.co
   and has been dormant since 2016-10-31. No packages are published under this name
   on npm, PyPI, or RubyGems. No API, documentation, or developer surface exists to
   enrich.'
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-19'
 tags:
