@@ -39,6 +39,9 @@ description: 'Kitchit was a San Francisco on-demand private-chef marketplace fou
   portal, or public API today, and no public API surface was ever published. This
   profile is retained as a historical/defunct provider record for network completeness.'
 url: https://raw.githubusercontent.com/api-evangelist/kitchit/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "Kitchit is defunct: it operates no website, developer portal, or public API today, and no public API surface was ever published."
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
