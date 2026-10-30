@@ -64,28 +64,45 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-**Status: defunct (shut down April 2016).**
+> **No longer operating.** This company or product has shut down, been discontinued, or been deprecated. This profile is kept as a historical record and is not maintained or rated.
 
-Kitchit was a San Francisco on-demand private-chef marketplace founded in 2011 by Brendan Marshall and Ian Ferguson. It matched consumers with vetted professional chefs who shopped, cooked, served, and cleaned up a multi-course meal in the customer's own home. In 2015 it pivoted to a lower-priced standardized product, "Kitchit Tonight," at roughly $39 per person with a two-person minimum. Kitchit served more than 100,000 meals and reported a net promoter score of 87. It raised approximately $8.1M from investors including Andreessen Horowitz, Crosslink Capital, Javelin Venture Partners, and Otter Rock Capital, and announced its shutdown in April 2016 as its runway ended amid broad food-tech upheaval.
+Kitchit was a San Francisco on-demand private-chef marketplace founded in 2011 by Brendan Marshall and Ian Ferguson. The service matched consumers with vetted professional chefs who shopped, cooked, served, and cleaned up a multi-course meal in the customer's own home, booked through the kitchit.com web and mobile storefront. In 2015 the company pivoted from fully customized menus to a lower-priced standardized product marketed as "Kitchit Tonight," priced around $39 per person with a two-person minimum. Kitchit served more than 100,000 meals across roughly five years of operation and reported a net promoter score of 87. It raised approximately $8.1M, with investors including Andreessen Horowitz, Crosslink Capital, Javelin Venture Partners, and Otter Rock Capital. The company announced its shutdown in April 2016, with the founders citing a finite investment runway that ended amid broad upheaval in food-tech, alongside contemporaneous failures at SpoonRocket, Dinner Lab, and Kitchensurfing. Kitchit is defunct: it operates no website, developer portal, or public API today, and no public API surface was ever published. This profile is retained as a historical/defunct provider record for network completeness.
 
-Backed by: a16z
+**Areas:** Company · Food and Beverage · Marketplace · On-Demand · Private Chef · Catering · Consumer · Hospitality · Defunct
 
-## Enrichment status
+## Kitchit on APIs.io (historical record)
 
-Verified 2026-07-19 — there is **no live surface to enrich**:
+Everything profiled for Kitchit is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/kitchit/](https://apis.io/providers/kitchit/)** — or go straight to one of the APIs or properties below.
 
-- `kitchit.com` resolves to a parked GoDaddy address (50.63.202.43) but refuses connections on ports 80 and 443.
-- `www`, `api`, `developer`, and `docs` subdomains are all unreachable.
-- DNS retains Google Workspace MX records and an SPF record; there is no DMARC, CAA, or DNSSEC.
-- `github.com/Kitchit` exists but has zero public repositories and has been dormant since 2016-10-31.
-- No packages published under this name on npm, PyPI, or RubyGems.
-- No OpenAPI, documentation, developer portal, or public API surface was ever published.
+### Published properties
 
-The only artifact captured is `security/kitchit-domain-security.yml`, recording the live DNS/TLS probe. This profile is retained as a historical/defunct provider record for network completeness and should not be re-queued for enrichment.
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## Sources
+#### Security (1)
 
-- [TechCrunch — On-demand private chef startup Kitchit shuts down (2016-04-28)](https://techcrunch.com/2016/04/28/on-demand-private-chef-startup-kitchit-shuts-down/)
-- [SFist — In Crowded Market, Catering Startup Kitchit Calls It Quits (2016-04-22)](https://sfist.com/2016/04/22/kitchit_food_startup_of_some_kind_c/)
-- [Failory — What Happened to Kitchit](https://www.failory.com/cemetery/kitchit)
-- [CB Insights — Kitchit](https://www.cbinsights.com/company/kitchit)
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Kitchit Domain Security](https://apis.io/security/kitchit/kitchit-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.kitchit.com)
+- [GitHub](https://github.com/Kitchit)
+
+## API Evangelist rating
+
+**Not rated** — this company is recorded as no longer operating, so no score is published. If it is in fact operating, say so on this repository and it will be re-profiled.
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Kitchit: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/kitchit/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
